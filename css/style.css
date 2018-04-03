@@ -1,0 +1,55 @@
+/*CSS style custom*/
+body,
+html{
+    height: 100%;
+    font-size: 14px;
+}
+img{
+    max-width: 100%;
+}
+#cover{
+    background: #222 url('../img/stage.jpg') center center no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cover-caption{
+    width: 100%;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+.section-content{
+    padding: 5rem 0;
+}
+#about{
+    background:  url('../img/girlincar.jpg') center center no-repeat;
+    background-size: cover;
+}
+.about-text h3 > a{
+    color: white;
+}
+h3>a:hover{
+    color: darkgrey;
+}
+#about .about-text{
+    background: rgba(0,0,0,0.8);
+    color: white;
+    padding: 1.875rem;
+}
+.footer-main{
+    background: #222;
+    color: white;
+    font-size: 0.7rem;
+    padding: 2.5rem 0;
+}
